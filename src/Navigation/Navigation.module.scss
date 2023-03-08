@@ -1,0 +1,32 @@
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            margin: 0;
+            li{
+                list-style-type: none;
+                padding: 13px 25px;
+                text-align: center;
+                
+                a{
+                    text-decoration:none;
+                }
+            }
+           
+            li:hover{
+                background-color: yellow;
+                a{
+                    color: black;
+                }
+            }
+        }
+
+        .switchMode{
+            position: relative;
+            top: 10px;
+            right: 10px;
+        }
+    }
+

@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1170px;
+  margin: 0 auto;
+}
+.container .column {
+  width: calc(33.33% - 40px);
+  margin: 20px;
+}
+.container .column .card {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(218, 209, 209, 0.3);
+}
+.container .column .card img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 250px;
+}
+.container .column .card button {
+  width: 100%;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.container .column .card button a {
+  color: white;
+  text-decoration: none;
+}
+.container .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+.container .overlay .popup {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 35%;
+  background: rgb(247, 235, 235);
+  margin: 100px auto;
+  position: relative;
+  border: 5px solid rgb(105, 101, 101);
+}
+.container .overlay .popup img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .overlay .popup .close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.container .overlay .popup .close:hover {
+  color: #06D85F;
+}
+.container .overlay .popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+.container .overlay:target {
+  display: block;
+}/*# sourceMappingURL=Players.module.css.map */

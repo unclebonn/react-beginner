@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  margin: 0;
+}
+nav ul li {
+  list-style-type: none;
+  padding: 13px 25px;
+  text-align: center;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li:hover {
+  background-color: yellow;
+}
+nav ul li:hover a {
+  color: black;
+}
+nav .switchMode {
+  position: relative;
+  top: 10px;
+  right: 10px;
+}/*# sourceMappingURL=Navigation.module.css.map */
